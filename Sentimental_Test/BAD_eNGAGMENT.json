@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "columnAnalyzed": "Comment Text",
+    "evaluationTime": 4.047,
+    "processingSpeed": "2.5",
+    "timestamp": "2026-02-28T00:04:06.376Z"
+  },
+  "stats": {
+    "total": 10,
+    "processed": 10,
+    "positive": 3,
+    "negative": 7,
+    "neutral": 0,
+    "verifiedTotal": 9,
+    "verifiedPositive": 3,
+    "verifiedNegative": 6,
+    "verifiedNeutral": 0,
+    "totalEngagement": 5115,
+    "averageEngagement": 511.5,
+    "currentScore": -40,
+    "scoreHistory": [
+      -100,
+      -100,
+      -100,
+      -100,
+      -100,
+      100,
+      -100,
+      100,
+      -100,
+      100
+    ],
+    "startTime": 1772237028475,
+    "currentComment": {
+      "id": 10,
+      "text": "Always stunning",
+      "sentiment": "positive",
+      "score": 0.95,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:53:22 PM"
+    },
+    "endTime": 1772237032522,
+    "brandSentiment": 30,
+    "netSentimentScore": -40
+  },
+  "comments": [
+    {
+      "id": 1,
+      "text": "Hate That",
+      "sentiment": "negative",
+      "score": -0.8,
+      "isVerified": false,
+      "engagement": 9,
+      "date": "2/9/2026, 2:05:38 PM"
+    },
+    {
+      "id": 2,
+      "text": "BAAAADDDD",
+      "sentiment": "negative",
+      "score": -0.9,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/9/2026, 2:13:23 PM"
+    },
+    {
+      "id": 3,
+      "text": "Hate That",
+      "sentiment": "negative",
+      "score": -0.8,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/9/2026, 2:40:39 PM"
+    },
+    {
+      "id": 4,
+      "text": "Hate That",
+      "sentiment": "negative",
+      "score": -0.8,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/13/2026, 4:43:00 PM"
+    },
+    {
+      "id": 5,
+      "text": "Hate That",
+      "sentiment": "negative",
+      "score": -0.8,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/9/2026, 2:13:19 PM"
+    },
+    {
+      "id": 6,
+      "text": "Love it",
+      "sentiment": "positive",
+      "score": 0.9,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:16:29 PM"
+    },
+    {
+      "id": 7,
+      "text": "Hate That",
+      "sentiment": "negative",
+      "score": -0.8,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/15/2026, 11:29:10 PM"
+    },
+    {
+      "id": 8,
+      "text": "Love the style",
+      "sentiment": "positive",
+      "score": 0.9,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/13/2026, 3:28:55 PM"
+    },
+    {
+      "id": 9,
+      "text": "Hate That",
+      "sentiment": "negative",
+      "score": -0.8,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/7/2026, 4:32:38 PM"
+    },
+    {
+      "id": 10,
+      "text": "Always stunning",
+      "sentiment": "positive",
+      "score": 0.95,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:53:22 PM"
+    }
+  ]
+}

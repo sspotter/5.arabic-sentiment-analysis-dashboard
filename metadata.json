@@ -1,0 +1,5 @@
+{
+  "name": "Arabic Sentiment Analysis Dashboard",
+  "description": "A stylish dashboard for analyzing the sentiment of Arabic comments from uploaded Excel, CSV, or JSON files.",
+  "requestFramePermissions": []
+}
