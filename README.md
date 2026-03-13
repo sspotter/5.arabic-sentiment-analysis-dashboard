@@ -5,6 +5,9 @@
 
 A powerful, React-based web application designed to analyze the sentiment of Arabic text data using the **Google Gemini API**. This tool empowers users to upload datasets, configure analysis parameters, visualize results in real-time, and perform comparative brand analysis with ease.
 
+🔗 
+🔗 [Arabic Sentiment Analyzer](https://arabsentiment.vercel.app/)
+Arabsentiment
 ## 🖼️ Visual Overview
 
 ### 📊 Sentiment Analysis Dashboard

@@ -391,7 +391,7 @@ export function FinalResults({ stats, columnAnalyzed, processedComments, onCompa
   return (
     <div className="w-full space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <div className="flex items-center justify-between border-b border-slate-200 pb-4 flex-wrap gap-4">
-        <h2 className="text-2xl font-bold text-slate-800 flex items-center">
+        <h2 className="text-2xl font-bold text-slate-800 flex items-center dark:text-white">
           <span className="bg-emerald-100 text-emerald-600 p-2 rounded-lg mr-3">🏁</span>
           Final Results
         </h2>

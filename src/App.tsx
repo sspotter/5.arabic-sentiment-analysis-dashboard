@@ -10,6 +10,12 @@ import { analyzeArabicSentimentBatch } from './services/geminiService';
 import Papa from 'papaparse';
 import * as XLSX from 'xlsx';
 import { Folder, Moon, Sun, CheckCircle, X } from 'lucide-react';
+import { defaultProjects } from './data/defaultProjects';
+
+
+// Default projects for demonstration (sourced from data file)
+const DEFAULT_PROJECTS: SavedProject[] = defaultProjects;
+
 
 export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
@@ -60,7 +66,24 @@ export default function App() {
   const [isComparing, setIsComparing] = useState(false);
   const [savedProjects, setSavedProjects] = useState<SavedProject[]>(() => {
     const saved = localStorage.getItem('sentiment_projects');
-    return saved ? JSON.parse(saved) : [];
+    if (saved) {
+      const parsed: SavedProject[] = JSON.parse(saved);
+      // make sure default projects are included
+      const merged = [...parsed];
+      DEFAULT_PROJECTS.forEach(dp => {
+        if (!merged.find(p => p.id === dp.id)) {
+          merged.push(dp);
+        }
+      });
+      if (merged.length !== parsed.length) {
+        localStorage.setItem('sentiment_projects', JSON.stringify(merged));
+      }
+      return merged;
+    } else {
+      // Initialize with default projects and save to localStorage
+      localStorage.setItem('sentiment_projects', JSON.stringify(DEFAULT_PROJECTS));
+      return DEFAULT_PROJECTS;
+    }
   });
   const [showSavedProjects, setShowSavedProjects] = useState(false);
 
