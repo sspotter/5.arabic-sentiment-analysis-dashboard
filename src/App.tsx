@@ -515,9 +515,9 @@ export default function App() {
             >
               {theme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
-            <div className="text-sm text-slate-500 font-medium hidden sm:block">
-              Powered by Gemini AI
-            </div>
+            {/* <div className="text-sm text-slate-500 font-medium hidden sm:block">
+              Powered by Trippyyy
+            </div> */}
           </div>
         </div>
       </header>

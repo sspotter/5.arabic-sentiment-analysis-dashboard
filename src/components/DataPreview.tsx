@@ -20,9 +20,17 @@ const detectColumn = (cols: string[], keywords: string[]) => {
 export function DataPreview({ data, columns, onStartAnalysis }: DataPreviewProps) {
   const [isExpanded, setIsExpanded] = useState(true);
   
-  const [selectedColumn, setSelectedColumn] = useState<string>(() => 
-    detectColumn(columns, ['comment', 'text', 'review', 'content', 'body', 'message', 'tweet']) || (columns.length > 3 ? columns[3] : columns[0])
-  );
+  const [selectedColumn, setSelectedColumn] = useState<string>(() => {
+    // First try to find "Comment Text" column
+    const commentTextCol = columns.find(col => col === 'Comment Text');
+    if (commentTextCol) return commentTextCol;
+    
+    // If not found, try column 10 (index 9) if it exists
+    if (columns.length > 9) return columns[9];
+    
+    // Fall back to detection logic
+    return detectColumn(columns, ['comment', 'text', 'review', 'content', 'body', 'message', 'tweet']) || (columns.length > 3 ? columns[3] : columns[0]);
+  });
   
   const [verifiedColumn, setVerifiedColumn] = useState<string>(() => 
     detectColumn(columns, ['verified', 'is_verified', 'isverified', 'blue_tick'])
@@ -42,7 +50,7 @@ export function DataPreview({ data, columns, onStartAnalysis }: DataPreviewProps
   return (
     <div className="w-full bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 overflow-hidden">
       <div 
-        className="flex items-center justify-between p-4 cursor-pointer hover:bg-slate-50 dark:bg-white dark:bg-slate-800/50 transition-colors"
+        className="flex items-center justify-between p-4 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <div className="flex items-center space-x-3">
@@ -63,7 +71,7 @@ export function DataPreview({ data, columns, onStartAnalysis }: DataPreviewProps
         <div className="border-t border-slate-200 dark:border-slate-800 p-4">
           <div className="overflow-x-auto rounded-lg border border-slate-200 dark:border-slate-800 max-h-96">
             <table className="min-w-full divide-y divide-slate-800 text-sm">
-              <thead className="bg-slate-50 dark:bg-white dark:bg-slate-800/50 sticky top-0 z-10">
+              <thead className="bg-slate-50 dark:bg-slate-800/50 sticky top-0 z-10">
                 <tr>
                   {columns.map((col, idx) => (
                     <th key={idx} className="px-6 py-3 text-left text-xs font-medium text-slate-500 dark:text-slate-400 uppercase tracking-wider whitespace-nowrap">
@@ -74,7 +82,7 @@ export function DataPreview({ data, columns, onStartAnalysis }: DataPreviewProps
               </thead>
               <tbody className="bg-white dark:bg-slate-900 divide-y divide-slate-800">
                 {data.slice(0, 100).map((row, rowIdx) => (
-                  <tr key={rowIdx} className="hover:bg-slate-50 dark:bg-white dark:bg-slate-800/50">
+                  <tr key={rowIdx} className="hover:bg-slate-50 dark:hover:bg-slate-800/50">
                     {columns.map((col, colIdx) => (
                       <td key={colIdx} className="px-6 py-4 whitespace-nowrap text-slate-700 dark:text-slate-300 truncate max-w-xs">
                         {String(row[col] || '')}
@@ -89,7 +97,7 @@ export function DataPreview({ data, columns, onStartAnalysis }: DataPreviewProps
         </div>
       )}
 
-      <div className="border-t border-slate-200 dark:border-slate-800 p-6 bg-slate-50 dark:bg-white dark:bg-slate-900/50">
+      <div className="border-t border-slate-200 dark:border-slate-800 p-6 bg-slate-50 dark:bg-slate-900/50">
         <div className="flex items-center space-x-2 mb-4">
           <Settings className="w-5 h-5 text-slate-500 dark:text-slate-400" />
           <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-200">Analysis Settings</h3>
