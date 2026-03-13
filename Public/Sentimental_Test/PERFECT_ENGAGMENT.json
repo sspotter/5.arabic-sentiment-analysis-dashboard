@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "columnAnalyzed": "Comment Text",
+    "evaluationTime": 11.62,
+    "processingSpeed": "1.2",
+    "timestamp": "2026-02-28T00:18:50.931Z"
+  },
+  "stats": {
+    "total": 14,
+    "processed": 14,
+    "positive": 14,
+    "negative": 0,
+    "neutral": 0,
+    "verifiedTotal": 5,
+    "verifiedPositive": 5,
+    "verifiedNegative": 0,
+    "verifiedNeutral": 0,
+    "totalEngagement": 10234,
+    "averageEngagement": 731,
+    "currentScore": 100,
+    "scoreHistory": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "startTime": 1772237911538,
+    "currentComment": {
+      "id": 14,
+      "text": "❤️",
+      "sentiment": "positive",
+      "score": 0.8,
+      "isVerified": true,
+      "engagement": 33,
+      "date": "2/10/2026, 5:08:40 PM"
+    },
+    "endTime": 1772237923158,
+    "brandSentiment": 100,
+    "netSentimentScore": 100
+  },
+  "comments": [
+    {
+      "id": 1,
+      "text": "🔥🔥🔥",
+      "sentiment": "positive",
+      "score": 0.8,
+      "isVerified": false,
+      "engagement": 9,
+      "date": "2/9/2026, 2:05:38 PM"
+    },
+    {
+      "id": 2,
+      "text": "🥳🥳🥳",
+      "sentiment": "positive",
+      "score": 0.9,
+      "isVerified": true,
+      "engagement": 12,
+      "date": "2/15/2026, 2:13:23 PM"
+    },
+    {
+      "id": 3,
+      "text": "⚡️⚡️⚡️⚡️",
+      "sentiment": "positive",
+      "score": 0.7,
+      "isVerified": false,
+      "engagement": 12,
+      "date": "2/15/2026, 2:40:39 PM"
+    },
+    {
+      "id": 4,
+      "text": "❤️❤️❤️❤️",
+      "sentiment": "positive",
+      "score": 0.9,
+      "isVerified": false,
+      "engagement": 9,
+      "date": "2/13/2026, 4:43:00 PM"
+    },
+    {
+      "id": 5,
+      "text": "Yesssss!",
+      "sentiment": "positive",
+      "score": 0.85,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/9/2026, 2:13:19 PM"
+    },
+    {
+      "id": 6,
+      "text": "😍😍😍",
+      "sentiment": "positive",
+      "score": 0.9,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:16:29 PM"
+    },
+    {
+      "id": 7,
+      "text": "😂",
+      "sentiment": "positive",
+      "score": 0.6,
+      "isVerified": true,
+      "engagement": 3014,
+      "date": "2/15/2026, 11:29:10 PM"
+    },
+    {
+      "id": 8,
+      "text": "😂",
+      "sentiment": "positive",
+      "score": 0.6,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/13/2026, 3:28:55 PM"
+    },
+    {
+      "id": 9,
+      "text": "😂😂😂",
+      "sentiment": "positive",
+      "score": 0.7,
+      "isVerified": false,
+      "engagement": 3014,
+      "date": "2/7/2026, 4:32:38 PM"
+    },
+    {
+      "id": 10,
+      "text": "والله اميزنق 🤍🤣",
+      "sentiment": "positive",
+      "score": 0.95,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/7/2026, 3:07:05 PM"
+    },
+    {
+      "id": 11,
+      "text": "❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥جدة غييير",
+      "sentiment": "positive",
+      "score": 0.95,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:53:22 PM"
+    },
+    {
+      "id": 12,
+      "text": "😝😜😜",
+      "sentiment": "positive",
+      "score": 0.6,
+      "isVerified": false,
+      "engagement": 33,
+      "date": "2/2/2026, 8:45:54 PM"
+    },
+    {
+      "id": 13,
+      "text": "🤩🤩❤️‍🩹",
+      "sentiment": "positive",
+      "score": 0.85,
+      "isVerified": false,
+      "engagement": 33,
+      "date": "2/10/2026, 8:23:08 PM"
+    },
+    {
+      "id": 14,
+      "text": "❤️",
+      "sentiment": "positive",
+      "score": 0.8,
+      "isVerified": true,
+      "engagement": 33,
+      "date": "2/10/2026, 5:08:40 PM"
+    }
+  ]
+}

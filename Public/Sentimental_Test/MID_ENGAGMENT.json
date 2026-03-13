@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "columnAnalyzed": "Comment Text",
+    "evaluationTime": 8.595,
+    "processingSpeed": "1.6",
+    "timestamp": "2026-02-28T00:16:19.406Z"
+  },
+  "stats": {
+    "total": 14,
+    "processed": 14,
+    "positive": 0,
+    "negative": 0,
+    "neutral": 14,
+    "verifiedTotal": 5,
+    "verifiedPositive": 0,
+    "verifiedNegative": 0,
+    "verifiedNeutral": 5,
+    "totalEngagement": 6228,
+    "averageEngagement": 444.85714285714283,
+    "currentScore": 0,
+    "scoreHistory": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "startTime": 1772237277130,
+    "currentComment": {
+      "id": 14,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": true,
+      "engagement": 33,
+      "date": "2/6/2026, 5:08:40 PM"
+    },
+    "endTime": 1772237285725,
+    "brandSentiment": 0,
+    "netSentimentScore": 0
+  },
+  "comments": [
+    {
+      "id": 1,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 9,
+      "date": "2/9/2026, 2:05:38 PM"
+    },
+    {
+      "id": 2,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/9/2026, 2:13:23 PM"
+    },
+    {
+      "id": 3,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 9,
+      "date": "2/9/2026, 2:40:39 PM"
+    },
+    {
+      "id": 4,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 9,
+      "date": "2/13/2026, 4:43:00 PM"
+    },
+    {
+      "id": 5,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": true,
+      "engagement": 9,
+      "date": "2/9/2026, 2:13:19 PM"
+    },
+    {
+      "id": 6,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:16:29 PM"
+    },
+    {
+      "id": 7,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": true,
+      "engagement": 1014,
+      "date": "2/15/2026, 11:29:10 PM"
+    },
+    {
+      "id": 8,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/13/2026, 3:28:55 PM"
+    },
+    {
+      "id": 9,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/7/2026, 4:32:38 PM"
+    },
+    {
+      "id": 10,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/7/2026, 3:07:05 PM"
+    },
+    {
+      "id": 11,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 1014,
+      "date": "2/7/2026, 2:53:22 PM"
+    },
+    {
+      "id": 12,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 33,
+      "date": "2/6/2026, 8:45:54 PM"
+    },
+    {
+      "id": 13,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": false,
+      "engagement": 33,
+      "date": "2/6/2026, 8:23:08 PM"
+    },
+    {
+      "id": 14,
+      "text": ".",
+      "sentiment": "neutral",
+      "score": 0,
+      "isVerified": true,
+      "engagement": 33,
+      "date": "2/6/2026, 5:08:40 PM"
+    }
+  ]
+}
